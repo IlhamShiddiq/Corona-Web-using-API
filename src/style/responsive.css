@@ -1,0 +1,82 @@
+/* xtra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .nav-bottom {
+        width: 90%;
+    }
+    .btn-nav {
+        padding: 13px;
+    }
+    img.icon-nav {
+        width: 60px;
+    }
+
+    a.navbar-brand {
+        margin: 0;
+    }
+    img.stat-pic {
+        display: none;
+    }
+    .title {
+        padding: 10px;
+        text-align: center !important;
+    }
+    .title h1 {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .nav-bottom {
+        width: 85%;
+    }
+    img.icon-nav {
+        width: 65px;
+    }
+
+    img.stat-pic {
+        display: none;
+    }
+    .title {
+        padding: 10px;
+        text-align: center !important;
+    }
+    .title h1 {
+        font-size: 45px;
+        margin-top: 80px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .nav-bottom {
+        width: 80%;
+    }
+    img.icon-nav {
+        width: 67px;
+    }
+
+    img.stat-pic {
+        display: none;
+    }
+    .title {
+        padding: 10px;
+        text-align: center !important;
+    }
+    .title h1 {
+        font-size: 45px;
+        margin-top: 90px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    .title {
+        padding: 10px;
+    }
+    .title h1 {
+        font-size: 45px;
+        margin-top: 90px;
+    }
+}
