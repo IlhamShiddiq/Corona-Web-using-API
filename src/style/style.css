@@ -158,11 +158,17 @@ p.card-text {
     background-color: rgb(153, 29, 29);
 }
 .card-body-case {
-    min-height: 50px !important;
+    min-height: 10px !important;
 }
 .total {
     width: 100%;
-    height: 75px;
+    padding: 10px;
+}
+.total p {
+    font-size: 20px;
+}
+.total p span {
+    font-weight: bold;
 }
 .total-positif {
     background-color: rgb(230, 126, 126);
@@ -171,5 +177,5 @@ p.card-text {
     background-color: rgb(135, 230, 126);
 }
 .total-meninggal {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(158, 158, 158);
 }
