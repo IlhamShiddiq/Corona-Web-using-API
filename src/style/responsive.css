@@ -30,7 +30,7 @@
     .card-what-is {
         width: 90%;
     }
-    .card-sym {
+    .card-sym, .card-pre {
         width: 305px !important;
         margin: auto;
         margin-top: 10px;
@@ -69,7 +69,7 @@
     .card-what-is {
         width: 90%;
     }
-    .card-sym {
+    .card-sym, .card-pre {
         width: 350px !important;
         margin: auto;
         margin-top: 10px;
@@ -108,7 +108,7 @@
     .card-what-is {
         width: 90%;
     }
-    .card-sym {
+    .card-sym, .card-pre {
         width: 370px !important;
         margin: auto;
         margin-top: 10px;
@@ -138,5 +138,8 @@
     }
     .card-body {
         min-height: 200px !important;
+    }
+    .card-body-pre {
+        min-height: 230px !important;
     }
 }

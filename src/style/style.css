@@ -115,3 +115,14 @@ p.card-title {
 p.card-text {
     font-size: 13px;
 }
+
+/* Page-4 Style */
+.page-4 {
+    background-color: rgb(183, 221, 111);
+}
+.sub-page-4 {
+    background-color: rgb(110, 129, 26);
+}
+.card-body-pre {
+    min-height: 180px !important;
+}
