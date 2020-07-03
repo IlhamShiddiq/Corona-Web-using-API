@@ -47,6 +47,15 @@
     .sub-page-4 {
         height: 1900px;
     }
+    .row-case {
+        padding: 60px 0;
+    }
+    .page-5 {
+        height: 780px !important;
+    }
+    .sub-page-5 {
+        height: 580px;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -91,6 +100,15 @@
     }
     .sub-page-4 {
         height: 2030px;
+    }
+    .row-case {
+        padding: 60px 0;
+    }
+    .page-5 {
+        height: 780px !important;
+    }
+    .sub-page-5 {
+        height: 580px;
     }
 }
 
@@ -137,6 +155,15 @@
     .sub-page-4 {
         height: 2100px;
     }
+    .row-case {
+        padding: 60px 0;
+    }
+    .page-5 {
+        height: 780px !important;
+    }
+    .sub-page-5 {
+        height: 580px;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -159,5 +186,8 @@
     }
     .card-body-pre {
         min-height: 230px !important;
+    }
+    .card-body-case {
+        min-height: 10px !important;
     }
 }
