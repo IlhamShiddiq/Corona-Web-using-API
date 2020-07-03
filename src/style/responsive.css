@@ -41,6 +41,12 @@
     .sub-page-3 {
         height: 1450px;
     }
+    .page-4 {
+        height: 2130px !important;
+    }
+    .sub-page-4 {
+        height: 1900px;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -80,6 +86,12 @@
     .sub-page-3 {
         height: 1550px;
     }
+    .page-4 {
+        height: 2260px !important;
+    }
+    .sub-page-4 {
+        height: 2030px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -118,6 +130,12 @@
     }
     .sub-page-3 {
         height: 1580px;
+    }
+    .page-4 {
+        height: 2320px !important;
+    }
+    .sub-page-4 {
+        height: 2100px;
     }
 }
 
