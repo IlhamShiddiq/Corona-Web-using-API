@@ -1,10 +1,18 @@
+/* Utilities */
 .page {
     position: relative;
     width: 100%;
     height: 100vh;
 }
+.sub-page {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 75vh;
+    padding: 35px;
+}
 .navbar {
-    position: absolute !important;
+    position: fixed !important;
     top: 0; left: 0;
     z-index: 2;
 }
@@ -39,18 +47,11 @@
     border-top-right-radius: 50px;
 }
 
-
-
-
+/* Page-1 Style */
 .page-1 {
     background-color: rgb(158, 80, 141);
 }
-.sub-page {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 75vh;
-    padding: 35px;
+.sub-page-1 {
     background-color: rgb(143, 28, 114);
 }
 .title {
@@ -73,4 +74,44 @@
 }
 .title p.sub-explain {
     font-size: 15px;
+}
+
+/* Page-2 Style */
+.page-2 {
+    background-color: rgb(111, 127, 221);
+}
+.sub-page-2 {
+    background-color: rgb(47, 74, 230);
+}
+.card-wrapper {
+    padding: 13vh 0;
+}
+.card-what-is {
+    width: 60%;
+    margin: auto;
+}
+.header-card {
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+.body-card p {
+    text-indent: 20px;
+}
+
+/* Page-3 Style */
+.page-3 {
+    background-color: rgb(111, 221, 116);
+}
+.sub-page-3 {
+    background-color: rgb(38, 129, 26);
+}
+.card-body {
+    min-height: 160px !important;
+}
+p.card-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+p.card-text {
+    font-size: 13px;
 }
