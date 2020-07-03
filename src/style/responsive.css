@@ -168,6 +168,9 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {  
+    html {
+        overflow: hidden;
+    }
     .title {
         padding: 10px;
     }
@@ -189,5 +192,12 @@
     }
     .card-body-case {
         min-height: 10px !important;
+    }
+}
+
+/* Very Large devices*/
+@media (min-width: 1200px) {
+    html {
+        overflow: hidden;
     }
 }

@@ -19,7 +19,7 @@
   <!-- Brand -->
   <nav class="navbar">
     <div class="container brand">
-      <a class="navbar-brand text-white" href="#">
+      <a class="navbar-brand text-white" id="home" href="#">
         <img src="image/brand.jpg" width="30" height="30" alt="CoronaWeb Brand">
         <span class="ml-1">CoronaWeb</span>
       </a>
@@ -47,7 +47,7 @@
   </div>
 
   <!-- Page 2 -->
-  <div class="page page-2">
+  <div class="page page-2" id="second">
     <div class="sub-page sub-page-2">
       <div class="container">
         <div class="row">
@@ -71,7 +71,7 @@
   </div>
 
   <!-- Page 3 -->
-  <div class="page page-3">
+  <div class="page page-3" id="third">
     <div class="sub-page sub-page-3">
       <div class="container">
         <div class="row" style="padding: 60px 0;">
@@ -117,7 +117,7 @@
   </div>
 
   <!-- Page 4 -->
-  <div class="page page-4">
+  <div class="page page-4" id="forth">
     <div class="sub-page sub-page-4">
       <div class="container">
         <div class="row" style="padding: 70px 0;">
@@ -172,7 +172,7 @@
   </div>
 
   <!-- Page 5 -->
-  <div class="page page-5">
+  <div class="page page-5" id="fifth">
     <div class="sub-page sub-page-5">
       <div class="container">
         <div class="row row-case">
@@ -216,22 +216,22 @@
     <div class="nav-bottom shadow-lg">
       <div class="container">
         <div class="row">
-          <div class="col-3 btn-nav ujung-kiri text-center">
+          <a class="col-3 btn-nav ujung-kiri text-center" id="nav-what-is" href="#second">
             <img src="image/nav-icon/what-is-icon.png" alt="What is Corona" width="75" class="icon-nav"><br>
             <small>Apa itu Corona?</small>
-          </div>
-          <div class="col-3 btn-nav text-center">
+          </a>
+          <a class="col-3 btn-nav text-center" id="nav-sym" href="#third">
             <img src="image/nav-icon/symptoms-icon.png" alt="What is Corona" width="75" class="icon-nav"><br>
             <small>Gejala dari Corona</small>
-          </div>
-          <div class="col-3 btn-nav text-center">
+          </a>
+          <a class="col-3 btn-nav text-center" id="nav-prevent" href="#forth">
             <img src="image/nav-icon/prevent-icon.png" alt="What is Corona" width="75" class="icon-nav"><br>
             <small>Cegah dari Corona</small>
-          </div>
-          <div class="col-3 btn-nav ujung-kanan text-center">
+          </a>
+          <a class="col-3 btn-nav ujung-kanan text-center" id="nav-statistic" href="#fifth">
             <img src="image/nav-icon/statistic-icon.png" alt="What is Corona" width="75" class="icon-nav"><br>
             <small>Data Statistik</small>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -242,6 +242,7 @@
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="../node_modules/aos/dist/aos.js"></script>
   <script src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+  <script src="script/nav-clicked.js"></script>
     
 </body>
 </html>

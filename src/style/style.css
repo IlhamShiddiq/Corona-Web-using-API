@@ -1,4 +1,11 @@
 /* Utilities */
+html {
+    scroll-behavior: smooth;
+}
+.active {
+    background-color: rgba(156, 0, 0, 0.5);
+    color: white !important;
+}
 .page {
     position: relative;
     width: 100%;
@@ -35,6 +42,8 @@
     height: 20vh;
     cursor: pointer;
     padding: 19px;
+    color: black;
+    text-decoration: none;
     transition:all 200ms ease-in-out;
    -webkit-transition:all 200ms ease-in-out;
    -moz-transition:all 200ms ease-in-out;
@@ -44,6 +53,7 @@
 .btn-nav:hover {
     background-color: rgba(255, 0, 0, 0.5);
     color: white;
+    text-decoration: none;
     transition:all 200ms ease-in-out;
    -webkit-transition:all 200ms ease-in-out;
    -moz-transition:all 200ms ease-in-out;
