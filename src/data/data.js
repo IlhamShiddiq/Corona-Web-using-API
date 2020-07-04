@@ -2,9 +2,7 @@ function data() {
     
     const getData = () => {
         return fetch("https://covid19.mathdro.id/api/countries/Indonesia/confirmed")
-        .then(response => {
-            return response.json();
-        })
+        .then(response => response.json())
         .then(responseJson => {
             if(responseJson.error) {
                 alert('error!!');

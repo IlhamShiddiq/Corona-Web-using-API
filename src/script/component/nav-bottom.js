@@ -7,26 +7,6 @@ class navBottom extends HTMLElement {
         this.render();
     }
 
-    set clickEventWhat(event){
-        this._clickEventWhat = event;
-        this.render();
-    }
-
-    set clickEventSym(event){
-        this._clickEventWhat = event;
-        this.render();
-    }
-
-    set clickEventPre(event){
-        this._clickEventWhat = event;
-        this.render();
-    }
-
-    set clickEventStat(event){
-        this._clickEventWhat = event;
-        this.render();
-    }
-
     render(){
         this.innerHTML = `
         <div class="nav-bottom-wrapper">

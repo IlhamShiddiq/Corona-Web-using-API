@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 import "./component/nav-bottom.js";
 import "./component/nav-top.js";
 import "./component/stat-box.js";
-import $ from "jquery";
+import "jquery";
 import 'bootstrap';
 import AOS from 'aos';
 
